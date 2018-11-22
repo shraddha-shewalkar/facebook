@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-navbar></app-navbar>
+<app-heroes></app-heroes>
+<!--<app-hero-form></app-hero-form>-->
+<div>
+    <h1>
+        {{ title }}!
+    </h1>
+<table *ngIf="heroes">
+        <tr>
+            <th>ID</th>
+                <th>Name of Hero</th>
+                    <th>Type of Hero</th>
+        </tr>
+        <tr *ngFor="let hero of  res">
+                <td>{{ hero.id }}: <a href="{{ hero.id }}">{{ hero.id }}</a></td>
+            
+        </tr>
+    </table>
+</div>
+
+

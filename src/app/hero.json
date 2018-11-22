@@ -1,0 +1,21 @@
+[
+{
+    "location":{
+            "id":"01",
+            "name":"honda",
+            "type":"bike"
+        },
+        "social":[{
+            "id":"02",
+            "name":"duet",
+            "type":"bike"
+        },
+        {
+            "id":"02",
+            "name":"duet",
+            "type":"bike"
+        }
+        ]
+    
+}
+]
